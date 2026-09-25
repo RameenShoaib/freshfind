@@ -267,7 +267,7 @@ a { text-decoration: none; }
 .hero-inner {
   position: relative; z-index: 2;
   max-width: 1440px; margin: 0 auto;
-  padding: 3.7rem 2.6rem 0 2.6rem;
+  padding: 1.55rem 2.6rem 0 2.6rem;
   min-height: calc(min(56.25vw, 1000px) * 0.606 + 6px);
 }
 .hero-badge {
@@ -810,21 +810,23 @@ input, select, textarea { border-radius: 16px; border-color: #d3e0cf; }
     width: 100%;
     max-width: none !important;
     box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr) max-content;
     gap: 0.55rem;
     padding-inline: 0.9rem;
   }
-  .site-header .brand { gap: 0.5rem; }
+  .site-header .brand { min-width: 0; gap: 0.45rem; overflow: visible; }
   .site-header .brand img { width: 46px; height: 46px; }
-  .site-header .brand strong { font-size: 1.28rem; }
-  .site-header .brand small { font-size: 0.76rem; }
-  .site-header .nav-links { gap: 0; overflow: hidden; }
-  .site-header .nav-links a { flex: 0 0 auto; gap: 0.3rem; padding-inline: 0.52rem; font-size: 0.84rem; }
-  .site-header .header-actions { gap: 0.35rem; }
-  .site-header .delivery-location { max-width: 150px; padding-inline: 0.55rem; }
-  .site-header .delivery-location strong { max-width: 82px; }
-  .site-header .header-clock { padding-inline: 0.6rem; font-size: 0.78rem; }
+  .site-header .brand strong { font-size: 1.16rem; white-space: nowrap; }
+  .site-header .brand small { font-size: 0.7rem; white-space: nowrap; }
+  .site-header .nav-links { gap: 0; min-width: 0; overflow: hidden; justify-content: center; }
+  .site-header .nav-links a { flex: 0 0 auto; gap: 0.2rem; padding-inline: 0.34rem; font-size: 0.78rem; }
+  .site-header .header-actions { min-width: max-content; gap: 0.25rem; }
+  .site-header .delivery-location { max-width: 132px; padding-inline: 0.45rem; }
+  .site-header .delivery-location strong { max-width: 70px; }
+  .site-header .header-clock { padding-inline: 0.5rem; font-size: 0.72rem; }
   .site-header .auth-actions { gap: 0.25rem; }
-  .site-header .auth-btn { padding-inline: 0.58rem; font-size: 0.76rem; }
+  .site-header .auth-btn { gap: 0.25rem; padding-inline: 0.48rem; font-size: 0.72rem; }
 }
 
 @media (max-width: 1240px) {
@@ -1003,3 +1005,32 @@ input, select, textarea { border-radius: 16px; border-color: #d3e0cf; }
 .page-index a.current { background: var(--ff-green-900); border-color: var(--ff-green-900); color: #fff; box-shadow: 0 12px 22px -14px rgba(15, 74, 51, 0.9); }
 .page-index .idx-arrow.off { opacity: 0.4; pointer-events: none; }
 .page-index-label { margin: 0; color: var(--ff-muted); font-size: 0.92rem; }
+
+/* Final desktop header layout: keep the brand, links, and actions in
+   independent areas so browser zoom cannot make them overlap. */
+@media (min-width: 1340px) {
+  .site-header .nav-shell {
+    width: 100%;
+    max-width: none !important;
+    display: grid;
+    grid-template-columns: 190px minmax(0, 1fr) max-content;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .site-header .brand {
+    min-width: 190px;
+    flex-shrink: 0;
+    overflow: visible;
+  }
+  .site-header .brand span { min-width: 0; }
+  .site-header .nav-links {
+    min-width: 0;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .site-header .nav-links a { flex: 0 0 auto; }
+}
+
+@media (min-width: 1340px) and (max-width: 1600px) {
+  .site-header .nav-links a svg { display: none !important; }
+}
