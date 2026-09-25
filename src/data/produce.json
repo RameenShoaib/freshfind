@@ -1,0 +1,362 @@
+[
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "category": "Vegetables",
+    "description": "Tender greens for salads, sauteing, and smoothies.",
+    "season": "Winter to spring",
+    "icon": "leaf",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "liaquatabad-market",
+      "landhi-market"
+    ],
+    "image": "assets/spainsh new.jpg"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "category": "Fruits",
+    "description": "Sweet berries best bought ripe and used within a few days.",
+    "season": "Spring",
+    "icon": "berry",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "north-nazimabad-market",
+      "liaquatabad-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/strawberry.jpg"
+  },
+  {
+    "id": "milk",
+    "name": "Farm Milk",
+    "category": "Dairy",
+    "description": "Fresh local milk from small dairy producers.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/milk.jpg"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "category": "Vegetables",
+    "description": "Juicy field tomatoes for sauces, sandwiches, and salads.",
+    "season": "Summer to early fall",
+    "icon": "round",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "north-nazimabad-market",
+      "liaquatabad-market"
+    ],
+    "image": "assets/produce/tomato.jpg"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "Fruits",
+    "description": "Crisp orchard apples sold in mixed varieties.",
+    "season": "Fall",
+    "icon": "fruit",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "north-nazimabad-market",
+      "liaquatabad-market"
+    ],
+    "image": "assets/produce/apple.jpg"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "category": "Vegetables",
+    "description": "Crunchy roots available loose or in bunches.",
+    "season": "Fall to winter",
+    "icon": "root",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "north-nazimabad-market",
+      "landhi-market"
+    ],
+    "image": "assets/produce/carrot.jpg"
+  },
+  {
+    "id": "yogurt",
+    "name": "Plain Yogurt",
+    "category": "Dairy",
+    "description": "Small-batch cultured yogurt for breakfasts and marinades.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "liaquatabad-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/yogurt.jpg"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "category": "Vegetables",
+    "description": "Reliable storage potatoes from local fields.",
+    "season": "Fall to winter",
+    "icon": "root",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "north-nazimabad-market",
+      "liaquatabad-market",
+      "landhi-market"
+    ],
+    "image": "assets/produce/potato.jpg"
+  },
+  {
+    "id": "cheese",
+    "name": "Farm Cheese",
+    "category": "Dairy",
+    "description": "Fresh and aged cheeses from local dairy stalls.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "north-nazimabad-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/cheese.jpg"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "category": "Fruits",
+    "description": "Fragrant, juicy mangoes picked at the height of summer sweetness.",
+    "season": "Summer",
+    "icon": "fruit",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "malir-market",
+      "north-nazimabad-market",
+      "gulshan-e-iqbal-market"
+    ],
+    "image": "assets/produce/mango.svg"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "category": "Fruits",
+    "description": "Bright citrus with a refreshing balance of sweetness and tang.",
+    "season": "Winter to spring",
+    "icon": "fruit",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "liaquatabad-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/orange.svg"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "category": "Fruits",
+    "description": "Naturally sweet bananas that are easy to enjoy at any time of day.",
+    "season": "Year round",
+    "icon": "fruit",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "north-nazimabad-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/banana.svg"
+  },
+  {
+    "id": "guava",
+    "name": "Guava",
+    "category": "Fruits",
+    "description": "A fragrant, crisp fruit with a fresh flavour for snacks and juices.",
+    "season": "Fall to winter",
+    "icon": "fruit",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "liaquatabad-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/guava.svg"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "category": "Vegetables",
+    "description": "Cool, crunchy cucumbers for salads, raita, and refreshing sides.",
+    "season": "Spring to summer",
+    "icon": "round",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "liaquatabad-market",
+      "north-nazimabad-market"
+    ],
+    "image": "assets/produce/cucumber.svg"
+  },
+  {
+    "id": "peas",
+    "name": "Green Peas",
+    "category": "Vegetables",
+    "description": "Tender green peas that bring a sweet, fresh bite to everyday dishes.",
+    "season": "Winter to spring",
+    "icon": "leaf",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "north-nazimabad-market",
+      "liaquatabad-market",
+      "landhi-market"
+    ],
+    "image": "assets/produce/peas.svg"
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "category": "Vegetables",
+    "description": "Firm, fresh florets for roasting, curries, and comforting winter meals.",
+    "season": "Winter",
+    "icon": "leaf",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/cauliflower.svg"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "category": "Vegetables",
+    "description": "Golden, gently sweet pumpkin for soups, curries, and seasonal bakes.",
+    "season": "Fall to winter",
+    "icon": "round",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "north-nazimabad-market",
+      "landhi-market"
+    ],
+    "image": "assets/produce/pumpkin.svg"
+  },
+  {
+    "id": "butter",
+    "name": "Farm Butter",
+    "category": "Dairy",
+    "description": "Creamy local butter made for warm bread, baking, and breakfast tables.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "north-nazimabad-market",
+      "liaquatabad-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/butter.svg"
+  },
+  {
+    "id": "cream",
+    "name": "Fresh Cream",
+    "category": "Dairy",
+    "description": "Silky fresh cream from local dairies for desserts and savoury recipes.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/cream.svg"
+  },
+  {
+    "id": "lassi",
+    "name": "Fresh Lassi",
+    "category": "Dairy",
+    "description": "Chilled cultured lassi, lightly tangy and perfect with a fresh market meal.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "liaquatabad-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/lassi.svg"
+  },
+  {
+    "id": "cottage-cheese",
+    "name": "Cottage Cheese",
+    "category": "Dairy",
+    "description": "Soft, fresh cottage cheese for wholesome breakfasts, salads, and snacks.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "north-nazimabad-market",
+      "liaquatabad-market"
+    ],
+    "image": "assets/produce/cottage-cheese.svg"
+  },
+  {
+    "id": "buttermilk",
+    "name": "Buttermilk",
+    "category": "Dairy",
+    "description": "Cool, lightly tangy buttermilk made fresh for everyday meals and drinks.",
+    "season": "Year round",
+    "icon": "dairy",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "landhi-market",
+      "malir-market"
+    ],
+    "image": "assets/produce/buttermilk.svg"
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "category": "Vegetables",
+    "description": "Crisp leafy lettuce for fresh salads, wraps, and light market meals.",
+    "season": "Year round",
+    "icon": "leaf",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "north-nazimabad-market",
+      "liaquatabad-market"
+    ],
+    "image": "assets/produce/lettuce.svg"
+  },
+  {
+    "id": "papaya",
+    "name": "Papaya",
+    "category": "Fruits",
+    "description": "Soft, golden papaya with a naturally sweet flavour for breakfast and smoothies.",
+    "season": "Year round",
+    "icon": "fruit",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "malir-market",
+      "landhi-market",
+      "north-nazimabad-market"
+    ],
+    "image": "assets/produce/papaya.svg"
+  }
+]

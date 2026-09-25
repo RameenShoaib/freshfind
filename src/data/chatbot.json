@@ -1,0 +1,26 @@
+[
+  {
+    "id": "open-now",
+    "question": "Which markets are open now?",
+    "responseType": "open-markets",
+    "destination": "#/markets?status=open"
+  },
+  {
+    "id": "produce-season",
+    "question": "What produce is seasonal?",
+    "responseType": "seasonal-produce",
+    "destination": "#/produce"
+  },
+  {
+    "id": "maps-location",
+    "question": "Can FreshFind use my location?",
+    "responseType": "location",
+    "destination": "#/contact"
+  },
+  {
+    "id": "contact",
+    "question": "How can I contact FreshFind?",
+    "responseType": "contact",
+    "destination": "#/contact"
+  }
+]

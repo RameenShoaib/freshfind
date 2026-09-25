@@ -1,0 +1,321 @@
+[
+  {
+    "id": "karachi-sabzi-mandi",
+    "name": "Karachi Sabzi Mandi",
+    "neighborhood": "Super Highway",
+    "address": "New Sabzi Mandi, Super Highway, Karachi",
+    "latitude": 24.987,
+    "longitude": 67.155,
+    "description": "Karachi's big fruit and vegetable mandi, with seasonal produce sold in bulk and by the kilo.",
+    "thumbnail": "assets/markets/karachi-sabzi-mandi.jpg",
+    "featured": true,
+    "distanceKm": 1.8,
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "products": [
+      "spinach",
+      "strawberry",
+      "tomato",
+      "apple",
+      "carrot",
+      "milk",
+      "cheese",
+      "yogurt",
+      "potato"
+    ],
+    "imagePosition": "50% 45%"
+  },
+  {
+    "id": "gulshan-e-iqbal-market",
+    "name": "Gulshan-e-Iqbal Market",
+    "neighborhood": "Gulshan-e-Iqbal",
+    "address": "Gulshan-e-Iqbal, Karachi",
+    "latitude": 24.918,
+    "longitude": 67.093,
+    "description": "A busy neighbourhood market for fresh fruits, vegetables and dairy.",
+    "thumbnail": "assets/markets/gulshan-e-iqbal-market.jpg",
+    "featured": true,
+    "distanceKm": 3.1,
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "products": [
+      "apple",
+      "carrot",
+      "tomato",
+      "yogurt",
+      "milk",
+      "spinach"
+    ],
+    "imagePosition": "50% 55%"
+  },
+  {
+    "id": "north-nazimabad-market",
+    "name": "North Nazimabad Market",
+    "neighborhood": "North Nazimabad",
+    "address": "North Nazimabad, Karachi",
+    "latitude": 24.938,
+    "longitude": 67.041,
+    "description": "Early-morning stalls with fruits, vegetables and dairy for the whole neighbourhood.",
+    "thumbnail": "assets/markets/north-nazimabad-market.jpg",
+    "featured": false,
+    "distanceKm": 2.4,
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "16:00"
+      }
+    ],
+    "products": [
+      "potato",
+      "carrot",
+      "apple",
+      "tomato",
+      "cheese",
+      "strawberry"
+    ],
+    "imagePosition": "50% 50%"
+  },
+  {
+    "id": "liaquatabad-market",
+    "name": "Liaquatabad Market",
+    "neighborhood": "Liaquatabad",
+    "address": "Liaquatabad, Karachi",
+    "latitude": 24.907,
+    "longitude": 67.036,
+    "description": "A local market for everyday fruits and vegetables at neighbourhood prices.",
+    "thumbnail": "assets/markets/liaquatabad-market.jpg",
+    "featured": true,
+    "distanceKm": 4.6,
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "16:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "16:00"
+      }
+    ],
+    "products": [
+      "strawberry",
+      "apple",
+      "potato",
+      "tomato",
+      "spinach",
+      "yogurt"
+    ],
+    "imagePosition": "50% 55%"
+  },
+  {
+    "id": "landhi-market",
+    "name": "Landhi Market",
+    "neighborhood": "Landhi",
+    "address": "Landhi Town, Karachi",
+    "latitude": 24.856,
+    "longitude": 67.205,
+    "description": "An evening market for after-work shoppers, with fruits, vegetables and dairy.",
+    "thumbnail": "assets/markets/landhi-market.jpg",
+    "featured": false,
+    "distanceKm": 5.2,
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "11:00",
+        "close": "19:00"
+      }
+    ],
+    "products": [
+      "spinach",
+      "cheese",
+      "potato",
+      "milk",
+      "carrot"
+    ],
+    "imagePosition": "50% 68%"
+  },
+  {
+    "id": "malir-market",
+    "name": "Malir Market",
+    "neighborhood": "Malir",
+    "address": "Malir, Karachi",
+    "latitude": 24.895,
+    "longitude": 67.198,
+    "description": "A late-afternoon market in Malir selling fruits, vegetables and dairy.",
+    "thumbnail": "assets/markets/malir-market.jpg",
+    "featured": false,
+    "distanceKm": 6.3,
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "11:00",
+        "close": "19:00"
+      }
+    ],
+    "products": [
+      "apple",
+      "yogurt",
+      "strawberry",
+      "milk",
+      "cheese"
+    ],
+    "imagePosition": "50% 68%"
+  }
+]

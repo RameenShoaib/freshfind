@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "key": "intro",
+      "badge": "About FreshFind",
+      "overviewTitle": "About FreshFind",
+      "pointsTitle": "What We Do"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "what-is-freshfind",
+      "title": "What is FreshFind?",
+      "group": "intro",
+      "icon": "🔎",
+      "lead": "Discover FreshFind.",
+      "overview": [],
+      "points": [],
+      "links": [],
+      "stats": []
+    }
+  ]
+}
