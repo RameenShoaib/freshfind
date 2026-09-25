@@ -358,5 +358,33 @@
       "north-nazimabad-market"
     ],
     "image": "assets/produce/papaya.svg"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "category": "Fruits",
+    "description": "Creamy, nourishing avocados for toast, salads, and fresh bowls.",
+    "season": "Spring to summer",
+    "icon": "fruit",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "malir-market",
+      "north-nazimabad-market"
+    ],
+    "image": "assets/produce/avocado.svg"
+  },
+  {
+    "id": "sweet-corn",
+    "name": "Sweet Corn",
+    "category": "Vegetables",
+    "description": "Golden sweet corn picked fresh for salads, soups, and family meals.",
+    "season": "Summer to fall",
+    "icon": "leaf",
+    "markets": [
+      "karachi-sabzi-mandi",
+      "gulshan-e-iqbal-market",
+      "liaquatabad-market"
+    ],
+    "image": "assets/produce/sweet-corn.svg"
   }
 ]

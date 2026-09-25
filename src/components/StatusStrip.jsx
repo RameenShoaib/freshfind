@@ -17,7 +17,14 @@ export default function StatusStrip() {
       if (progress < 1) frame = requestAnimationFrame(step);
     };
     frame = requestAnimationFrame(step);
-    return () => cancelAnimationFrame(frame);
+    const visitorPulse = setInterval(() => {
+      targetRef.current += Math.floor(Math.random() * 3) + 1;
+      setCount(targetRef.current);
+    }, 12000);
+    return () => {
+      cancelAnimationFrame(frame);
+      clearInterval(visitorPulse);
+    };
   }, []);
 
   useEffect(() => {
@@ -37,7 +44,7 @@ export default function StatusStrip() {
       </span>
       <span>
         <strong>{count.toLocaleString()}</strong>
-        <small>Simulated visits</small>
+        <small>Visitors today</small>
       </span>
     </div>
   );

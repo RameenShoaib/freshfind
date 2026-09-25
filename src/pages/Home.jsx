@@ -9,6 +9,7 @@ import SectionHeading from "../components/SectionHeading";
 import FeaturedSpotlight from "../components/FeaturedSpotlight";
 import HighlightColumn from "../components/HighlightColumn";
 import ProduceCard from "../components/ProduceCard";
+import StatusStrip from "../components/StatusStrip";
 
 const FEATURES = [
   { icon: Leaf, tone: "green", title: "Fresh & Seasonal", text: "Only the best, always fresh.", to: "/seasonal" },
@@ -65,6 +66,7 @@ export default function Home() {
               <Leaf size={20} /> Browse Produce
             </Link>
           </div>
+          <StatusStrip />
         </div>
 
         <p className="doodle hero-doodle-b" aria-hidden="true">
