@@ -41,6 +41,12 @@ export default function Chatbot() {
       // Keep the conversation available for this session if storage is unavailable.
     }
   }, [log]);
+  useEffect(() => {
+    if (!open || !logRef.current) return;
+    requestAnimationFrame(() => {
+      logRef.current.scrollTo({ top: logRef.current.scrollHeight, behavior: "smooth" });
+    });
+  }, [log, open]);
 
   const seasonalProduceAnswer = () => {
     const month = now.getMonth();
@@ -71,7 +77,7 @@ export default function Chatbot() {
         if (!openMarkets.length) return { text: "No markets are currently open." };
         const lines = openMarkets.map((market) => {
           const slot = currentMarketSlot(market, now);
-          return `• ${market.name} — Open until ${formatTime(slot.close)}`;
+          return `- ${market.name} - Open until ${formatTime(slot.close)}`;
         });
         return { text: `Markets open now:\n${lines.join("\n")}`, destination: "#/markets?status=open" };
       }
@@ -172,7 +178,7 @@ export default function Chatbot() {
   };
 
   return (
-    <aside className="chatbot" aria-label="FreshFind chatbot">
+    <aside className={`chatbot${open ? " is-open" : ""}`} aria-label="FreshFind chatbot">
       <button className="chat-launcher" type="button" aria-label="Chat with FreshFind helper" aria-expanded={open} onClick={() => setOpen((o) => !o)}>
         <MessageCircle size={32} strokeWidth={1.8} />
       </button>
@@ -190,7 +196,7 @@ export default function Chatbot() {
               <div key={index} className={entry.role === "bot" ? "bot-bubble" : "user-bubble"}>
                 {entry.text}{" "}
                 {entry.destination ? (
-                  <a href={entry.destination} onClick={(event) => handleDestination(event, entry.destination)}>
+                  <a className="chat-related-link" href={entry.destination} onClick={(event) => handleDestination(event, entry.destination)}>
                     Open related page
                   </a>
                 ) : null}

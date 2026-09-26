@@ -12,7 +12,7 @@
       "liaquatabad-market",
       "landhi-market"
     ],
-    "image": "assets/spainsh new.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.38.34 PM.jpeg"
   },
   {
     "id": "strawberry",
@@ -27,7 +27,7 @@
       "liaquatabad-market",
       "malir-market"
     ],
-    "image": "assets/produce/strawberry.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.38.44 PM.jpeg"
   },
   {
     "id": "milk",
@@ -42,7 +42,7 @@
       "landhi-market",
       "malir-market"
     ],
-    "image": "assets/produce/milk.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.40.38 PM.jpeg"
   },
   {
     "id": "tomato",
@@ -57,7 +57,7 @@
       "north-nazimabad-market",
       "liaquatabad-market"
     ],
-    "image": "assets/produce/tomato.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.41.39 PM.jpeg"
   },
   {
     "id": "apple",
@@ -72,7 +72,7 @@
       "north-nazimabad-market",
       "liaquatabad-market"
     ],
-    "image": "assets/produce/apple.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.43.54 PM.jpeg"
   },
   {
     "id": "carrot",
@@ -87,7 +87,7 @@
       "north-nazimabad-market",
       "landhi-market"
     ],
-    "image": "assets/produce/carrot.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.44.15 PM.jpeg"
   },
   {
     "id": "yogurt",
@@ -102,7 +102,7 @@
       "liaquatabad-market",
       "malir-market"
     ],
-    "image": "assets/produce/yogurt.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.25.58 PM.jpeg"
   },
   {
     "id": "potato",
@@ -117,7 +117,7 @@
       "liaquatabad-market",
       "landhi-market"
     ],
-    "image": "assets/produce/potato.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.46.41 PM.jpeg"
   },
   {
     "id": "cheese",
@@ -132,7 +132,7 @@
       "landhi-market",
       "malir-market"
     ],
-    "image": "assets/produce/cheese.jpg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.48.58 PM.jpeg"
   },
   {
     "id": "mango",
@@ -147,7 +147,7 @@
       "north-nazimabad-market",
       "gulshan-e-iqbal-market"
     ],
-    "image": "assets/produce/mango.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.01.02 PM.jpeg"
   },
   {
     "id": "orange",
@@ -162,7 +162,7 @@
       "landhi-market",
       "malir-market"
     ],
-    "image": "assets/produce/orange.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.01.02 PM (1).jpeg"
   },
   {
     "id": "banana",
@@ -177,7 +177,7 @@
       "north-nazimabad-market",
       "malir-market"
     ],
-    "image": "assets/produce/banana.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.05.21 PM.jpeg"
   },
   {
     "id": "guava",
@@ -192,7 +192,7 @@
       "landhi-market",
       "malir-market"
     ],
-    "image": "assets/produce/guava.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.08.22 PM.jpeg"
   },
   {
     "id": "cucumber",
@@ -207,7 +207,7 @@
       "liaquatabad-market",
       "north-nazimabad-market"
     ],
-    "image": "assets/produce/cucumber.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.11.26 PM.jpeg"
   },
   {
     "id": "peas",
@@ -222,7 +222,7 @@
       "liaquatabad-market",
       "landhi-market"
     ],
-    "image": "assets/produce/peas.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.19.24 PM.jpeg"
   },
   {
     "id": "cauliflower",
@@ -237,7 +237,7 @@
       "landhi-market",
       "malir-market"
     ],
-    "image": "assets/produce/cauliflower.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.29.55 PM.jpeg"
   },
   {
     "id": "pumpkin",
@@ -252,7 +252,7 @@
       "north-nazimabad-market",
       "landhi-market"
     ],
-    "image": "assets/produce/pumpkin.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.13.26 PM.jpeg"
   },
   {
     "id": "butter",
@@ -267,7 +267,7 @@
       "liaquatabad-market",
       "malir-market"
     ],
-    "image": "assets/produce/butter.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.16.45 PM.jpeg"
   },
   {
     "id": "cream",
@@ -282,37 +282,7 @@
       "landhi-market",
       "malir-market"
     ],
-    "image": "assets/produce/cream.svg"
-  },
-  {
-    "id": "lassi",
-    "name": "Fresh Lassi",
-    "category": "Dairy",
-    "description": "Chilled cultured lassi, lightly tangy and perfect with a fresh market meal.",
-    "season": "Year round",
-    "icon": "dairy",
-    "markets": [
-      "karachi-sabzi-mandi",
-      "liaquatabad-market",
-      "landhi-market",
-      "malir-market"
-    ],
-    "image": "assets/produce/lassi.svg"
-  },
-  {
-    "id": "cottage-cheese",
-    "name": "Cottage Cheese",
-    "category": "Dairy",
-    "description": "Soft, fresh cottage cheese for wholesome breakfasts, salads, and snacks.",
-    "season": "Year round",
-    "icon": "dairy",
-    "markets": [
-      "karachi-sabzi-mandi",
-      "gulshan-e-iqbal-market",
-      "north-nazimabad-market",
-      "liaquatabad-market"
-    ],
-    "image": "assets/produce/cottage-cheese.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.28.11 PM.jpeg"
   },
   {
     "id": "buttermilk",
@@ -327,7 +297,7 @@
       "landhi-market",
       "malir-market"
     ],
-    "image": "assets/produce/buttermilk.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.29.17 PM.jpeg"
   },
   {
     "id": "lettuce",
@@ -342,7 +312,7 @@
       "north-nazimabad-market",
       "liaquatabad-market"
     ],
-    "image": "assets/produce/lettuce.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.34.44 PM.jpeg"
   },
   {
     "id": "papaya",
@@ -357,7 +327,7 @@
       "landhi-market",
       "north-nazimabad-market"
     ],
-    "image": "assets/produce/papaya.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 2.25.20 PM.jpeg"
   },
   {
     "id": "avocado",
@@ -371,7 +341,7 @@
       "malir-market",
       "north-nazimabad-market"
     ],
-    "image": "assets/produce/avocado.svg"
+    "image": "assets/WhatsApp Image 2026-09-26 at 1.36.08 PM.jpeg"
   },
   {
     "id": "sweet-corn",
@@ -385,6 +355,6 @@
       "gulshan-e-iqbal-market",
       "liaquatabad-market"
     ],
-    "image": "assets/produce/sweet-corn.svg"
+    "image": "assets/942e531a-f248-4c7b-ae68-b186c5ddf398.jpg"
   }
 ]

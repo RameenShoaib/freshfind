@@ -17,27 +17,7 @@
         "close": "17:00"
       },
       {
-        "day": "Tuesday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "day": "Wednesday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "day": "Thursday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "day": "Friday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "day": "Saturday",
+        "day": "Sunday",
         "open": "08:00",
         "close": "17:00"
       }
@@ -68,32 +48,12 @@
     "distanceKm": 3.1,
     "schedule": [
       {
-        "day": "Monday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
         "day": "Tuesday",
         "open": "08:00",
         "close": "17:00"
       },
       {
-        "day": "Wednesday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "day": "Thursday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "day": "Friday",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "day": "Saturday",
+        "day": "Sunday",
         "open": "08:00",
         "close": "17:00"
       }
@@ -121,32 +81,12 @@
     "distanceKm": 2.4,
     "schedule": [
       {
-        "day": "Monday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
-        "day": "Tuesday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
         "day": "Wednesday",
         "open": "09:00",
         "close": "16:00"
       },
       {
-        "day": "Thursday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
-        "day": "Friday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
-        "day": "Saturday",
+        "day": "Sunday",
         "open": "09:00",
         "close": "16:00"
       }
@@ -174,32 +114,12 @@
     "distanceKm": 4.6,
     "schedule": [
       {
-        "day": "Monday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
-        "day": "Tuesday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
-        "day": "Wednesday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
         "day": "Thursday",
         "open": "09:00",
         "close": "16:00"
       },
       {
-        "day": "Friday",
-        "open": "09:00",
-        "close": "16:00"
-      },
-      {
-        "day": "Saturday",
+        "day": "Sunday",
         "open": "09:00",
         "close": "16:00"
       }
@@ -227,32 +147,12 @@
     "distanceKm": 5.2,
     "schedule": [
       {
-        "day": "Monday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
-        "day": "Tuesday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
-        "day": "Wednesday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
-        "day": "Thursday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
         "day": "Friday",
         "open": "11:00",
         "close": "19:00"
       },
       {
-        "day": "Saturday",
+        "day": "Sunday",
         "open": "11:00",
         "close": "19:00"
       }
@@ -279,32 +179,12 @@
     "distanceKm": 6.3,
     "schedule": [
       {
-        "day": "Monday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
-        "day": "Tuesday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
-        "day": "Wednesday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
-        "day": "Thursday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
-        "day": "Friday",
-        "open": "11:00",
-        "close": "19:00"
-      },
-      {
         "day": "Saturday",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Sunday",
         "open": "11:00",
         "close": "19:00"
       }

@@ -28,6 +28,49 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+
+/* Use the supplied potato photo as a full-bleed card banner, like market cards. */
+.produce-banner.potato-banner img {
+  object-fit: cover;
+  object-position: center 52%;
+  display: block;
+}
+
+/* Use the supplied farm cheese photo as a full-bleed card banner, like market cards. */
+.produce-banner.cheese-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: center 50%;
+  display: block;
+}
+
+/* Use the supplied mango photo as a full-bleed card banner, like market cards. */
+.produce-banner.mango-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: center 50%;
+  display: block;
+}
+
+/* Use the supplied orange photo as a full-bleed card banner, like market cards. */
+.produce-banner.orange-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: center 50%;
+  display: block;
+}
+
+/* Keep the requested produce photos consistent with the market-card image treatment. */
+.produce-banner .produce-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: center 50% !important;
+  display: block;
+}
 body {
   margin: 0;
   color: var(--ink);
@@ -306,6 +349,27 @@ textarea { resize: vertical; }
   background: linear-gradient(90deg, var(--green-2), var(--gold), var(--tomato));
 }
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+
+/* Consistent green hover treatment across every reusable card surface. */
+.card,
+.panel,
+.highlight-column,
+.market-card-v2,
+.produce-card-v2 {
+  border: 1px solid transparent;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.card:hover,
+.panel:hover,
+.highlight-column:hover,
+.market-card-v2:hover,
+.produce-card-v2:hover {
+  border-color: var(--ff-green-700, var(--green));
+  box-shadow: 0 16px 34px rgba(15, 74, 51, 0.16), 0 0 0 2px rgba(47, 143, 91, 0.14);
+  transform: translateY(-5px);
+}
+
 .cards .card, .produce-grid .card {
   animation: card-rise .45s ease both;
 }
@@ -1565,6 +1629,29 @@ dd { margin: 0; }
   color: #22a06b;
 
   text-decoration: underline;
+}
+
+.contact-value {
+  display: block;
+  font-weight: 700;
+}
+
+.contact-email {
+  color: #22a06b;
+}
+
+/* Keep filter dropdowns scrollable without showing an awkward scrollbar. */
+.filter-select-menu {
+  max-height: min(60vh, 24rem);
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.filter-select-menu::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 

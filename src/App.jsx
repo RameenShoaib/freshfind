@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import AboutDetail from "./pages/AboutDetail";
 import NotFound from "./pages/NotFound";
+import PriceComparison from "./pages/PriceComparison";
 import Breadcrumbs from "./components/Breadcrumbs";
 
 const TITLES = {
@@ -26,6 +27,7 @@ const TITLES = {
   "/bookmarks": "Bookmarked Products | FreshFind",
   "/contact": "Contact Us | FreshFind",
   "/about": "About Us | FreshFind"
+  ,"/price-comparison": "Spatial AI Price Comparison | FreshFind"
 };
 
 function pageTitle(pathname) {
@@ -60,6 +62,7 @@ export default function App() {
           <Route path="/markets" element={<Markets />} />
           <Route path="/markets/:id" element={<MarketDetail />} />
           <Route path="/produce" element={<Produce />} />
+          <Route path="/price-comparison" element={<PriceComparison />} />
           <Route path="/seasonal" element={<Seasonal />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
           <Route path="/produce/:id" element={<ProduceDetail />} />

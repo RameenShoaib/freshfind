@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Leaf, Search, MapPin, Clock, BookOpen, ArrowRight } from "lucide-react";
+import { Leaf, Search, MapPin, Clock, BookOpen, ArrowRight, BrainCircuit } from "lucide-react";
 import { useAppData } from "../context/AppDataContext";
 import { useMarketFilters } from "../hooks/useMarketFilters";
 import { distanceFor, marketStatus, todayName } from "../utils/marketUtils";
@@ -64,6 +64,9 @@ export default function Home() {
             </Link>
             <Link className="outline-btn hero-btn" to="/produce">
               <Leaf size={20} /> Browse Produce
+            </Link>
+            <Link className="outline-btn hero-btn price-ai-hero-link" to="/price-comparison">
+              <BrainCircuit size={20} /> Compare Prices
             </Link>
           </div>
           <StatusStrip />

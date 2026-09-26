@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { bumpVisitCount } from "../utils/storage";
 
-export default function StatusStrip() {
+export default function StatusStrip({ showClock = true }) {
   const [clock, setClock] = useState("--:--");
   const [count, setCount] = useState(0);
   const targetRef = useRef(0);
@@ -38,10 +38,12 @@ export default function StatusStrip() {
 
   return (
     <div className="status-strip" aria-label="Site status">
-      <span>
-        <strong>{clock}</strong>
-        <small>Device time</small>
-      </span>
+      {showClock ? (
+        <span>
+          <strong>{clock}</strong>
+          <small>Device time</small>
+        </span>
+      ) : null}
       <span>
         <strong>{count.toLocaleString()}</strong>
         <small>Visitors today</small>

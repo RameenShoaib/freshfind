@@ -422,9 +422,9 @@ export default function Contact() {
                     Email
                   </small>
 
-                  <a href="mailto:hello@freshfind.local">
+                  <span className="contact-value contact-email">
                     {contactData.email}
-                  </a>
+                  </span>
 
                 </div>
 
@@ -445,9 +445,9 @@ export default function Contact() {
                     Phone
                   </small>
 
-                  <a href={contactData.phoneHref}>
+                  <span className="contact-value">
                     {contactData.phone}
-                  </a>
+                  </span>
 
                 </div>
 

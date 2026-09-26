@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { CalendarDays, Lightbulb, MapPin, Search, Sprout, Target } from "lucide-react";
+import StatusStrip from "../components/StatusStrip";
 
 export default function About() {
   return (
@@ -15,8 +16,10 @@ export default function About() {
 
           <p>
             Discover fresh food, local markets, seasonal products, and
-            trusted information — all in one simple place.
+            trusted information all in one simple place.
           </p>
+
+          <StatusStrip showClock={false} />
 
         </div>
       </section>
@@ -47,7 +50,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -74,7 +77,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -100,7 +103,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -120,7 +123,7 @@ export default function About() {
                 in one convenient place.
               </p>
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
             </article>
           </Link>
@@ -166,7 +169,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -191,7 +194,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -216,7 +219,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -236,7 +239,7 @@ export default function About() {
                 through different sources.
               </p>
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
             </article>
           </Link>
@@ -281,7 +284,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -306,7 +309,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -331,7 +334,7 @@ export default function About() {
               </p>
 
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
 
             </article>
@@ -351,7 +354,7 @@ export default function About() {
                 available throughout the year.
               </p>
               <span className="about-read-more">
-                Read More →
+                Read More
               </span>
             </article>
           </Link>

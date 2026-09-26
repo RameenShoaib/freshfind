@@ -3,7 +3,41 @@ import { Eye, EyeOff, LogIn, UserPlus, X } from "lucide-react";
 
 export default function AuthModal({ mode, onClose, onSwitch, onSubmit }) {
   const [showPassword, setShowPassword] = useState(false);
+  const [errors, setErrors] = useState({});
   const isLogin = mode === "login";
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const nextErrors = {};
+    if (!isLogin) {
+      const name = String(new FormData(form).get("name") || "").trim();
+      if (!name) nextErrors.name = "Please enter your full name.";
+      else if (name.length < 2) nextErrors.name = "Name must be at least 2 characters.";
+      else if (/\d/.test(name)) nextErrors.name = "Name cannot contain numbers.";
+      else if (!/^\p{L}+(?:[\s'-]+\p{L}+)*$/u.test(name)) nextErrors.name = "Name can contain letters, spaces, apostrophes, or hyphens only.";
+    }
+    if (Object.keys(nextErrors).length) {
+      setErrors(nextErrors);
+      return;
+    }
+    setErrors({});
+    onSubmit(isLogin ? "login" : "signup");
+  };
+
+  const rejectNameNumbers = (event) => {
+    if (/\d/.test(event.key || event.data || "")) {
+      event.preventDefault();
+      setErrors((current) => ({ ...current, name: "Name cannot contain numbers." }));
+    }
+  };
+
+  const rejectNameNumberPaste = (event) => {
+    if (/\d/.test(event.clipboardData.getData("text"))) {
+      event.preventDefault();
+      setErrors((current) => ({ ...current, name: "Name cannot contain numbers." }));
+    }
+  };
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -21,8 +55,8 @@ export default function AuthModal({ mode, onClose, onSwitch, onSubmit }) {
         <span className="auth-modal-eyebrow">FreshFind account</span>
         <h2 id="auth-modal-title">{isLogin ? "Welcome back" : "Join FreshFind"}</h2>
         <p>{isLogin ? "Sign in to keep your favourite markets and produce close at hand." : "Create a demo account to save your FreshFind discoveries."}</p>
-        <form className="auth-form" onSubmit={(event) => { event.preventDefault(); onSubmit(isLogin ? "login" : "signup"); }}>
-          {!isLogin ? <label>Full name<input type="text" name="name" placeholder="Your name" autoComplete="name" required /></label> : null}
+        <form className="auth-form" onSubmit={handleSubmit}>
+          {!isLogin ? <label>Full name<input type="text" name="name" placeholder="Your name" autoComplete="name" required aria-invalid={Boolean(errors.name)} aria-describedby={errors.name ? "auth-name-error" : undefined} onKeyDown={rejectNameNumbers} onBeforeInput={rejectNameNumbers} onPaste={rejectNameNumberPaste} onChange={(event) => { const value = event.target.value; setErrors((current) => ({ ...current, name: /\d/.test(value) ? "Name cannot contain numbers." : "" })); }} />{errors.name ? <small id="auth-name-error" className="auth-field-error" role="alert">{errors.name}</small> : null}</label> : null}
           <label>Email address<input type="email" name="email" placeholder="you@example.com" autoComplete="email" required /></label>
           <label>Password<span className="auth-password-field"><input type={showPassword ? "text" : "password"} name="password" placeholder="Enter your password" autoComplete={isLogin ? "current-password" : "new-password"} minLength="6" required /><button type="button" aria-label={showPassword ? "Hide password" : "Show password"} onClick={() => setShowPassword((current) => !current)}>{showPassword ? <EyeOff size={17} /> : <Eye size={17} />}</button></span></label>
           <button className="auth-modal-submit" type="submit">{isLogin ? "Login" : "Create demo account"}</button>

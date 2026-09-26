@@ -1,4 +1,4 @@
-import { createContext, useContext, useMemo, useState, useCallback } from "react";
+import { createContext, useContext, useMemo, useState, useCallback, useEffect } from "react";
 import marketsData from "../data/markets.json";
 import produceData from "../data/produce.json";
 import chatbotData from "../data/chatbot.json";
@@ -68,6 +68,12 @@ export function AppDataProvider({ children }) {
       }))
     );
   }, []);
+
+  // Reapply the saved location after refresh so Nearby always reflects the
+  // user's selected coordinates, not the default distances from markets.json.
+  useEffect(() => {
+    if (selectedLocation) applyDistances(selectedLocation);
+  }, [selectedLocation, applyDistances]);
 
   const detectCurrentLocation = useCallback(() => new Promise((resolve, reject) => {
     if (!navigator.geolocation) {
